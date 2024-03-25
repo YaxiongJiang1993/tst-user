@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>tst-user</artifactId>
-        <groupId>org.example</groupId>
+        <groupId>com.davih.tst</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -15,7 +15,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.example</groupId>
+            <groupId>com.davih.tst</groupId>
             <artifactId>tst-user-client</artifactId>
             <version>${tst-user-client.version}</version>
         </dependency>
